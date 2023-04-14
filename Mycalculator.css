@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+    background: url("https://www.svgbackgrounds.com/wp-content/uploads/2021/07/hurricane-aperature-3d-background.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 500px;
+    margin: auto;
+    /* border: 2px solid red; */
+}
+#screen{
+    height: 100px;
+    width: 450px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    /* margin-top: 100px; */
+    text-align: end;
+}
+.i button{
+    font-size: 1.5rem;
+    height: 52px;
+    width: 112px;
+    margin-bottom: 20px;
+    background-color: rgb(142, 187, 243);
+    color: rgb(234, 101, 11);
+    border-radius: 8px;
+    cursor: pointer;
+}
+#para{
+    margin-top: -100px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    color: cadetblue;
+}
